@@ -13,7 +13,7 @@
         header("location:../index.php?pesan=belum_login");
     }
     ?>
-    <h4>suki datang, <?php echo $_SESSION['username']; ?>! berisaplah.</h4>
+    <h4>selamat datang, <?php echo $_SESSION['username']; ?>!</h4>
     <br/>
     <br/>
     <a href="logout.php">LOGOUT</a>
